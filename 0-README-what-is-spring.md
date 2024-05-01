@@ -15,7 +15,7 @@ Spring Framework is free and open source, although [commercial support](https://
 Since it's initial introduction,  the Spring project has expanded to include React front ends, Serverless, Event Driven, Data Flow, Security and [more](https://spring.io/projects).  In this workshop we will focus on the [Spring AI project](https://spring.io/projects/spring-ai).
 
 ## Why Use Spring AI instead of Python?
-Python is one of the most widely used languages for data science, and when it comes to GenAI use cases there are some very good libraries available for developers.  However, not all development shops will have Python expertise handy.  Or it may be that an applicayion is not, strictly speaking, a data science app.  
+Python is one of the most widely used languages for data science, and when it comes to GenAI use cases there are some very good libraries available for developers.  However, not all development shops will have Python expertise handy.  Or it may be that an application is not, strictly speaking, a data science app.  
 
 ![alt text](./src/main/resources/images/dev-team-no-python.png "App team does java; data science does python")
 
