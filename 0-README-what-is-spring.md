@@ -40,5 +40,5 @@ Once selections are complete, the team simply download the files.  All the neces
 ## In this Workshop
 This workshop will start with all the necessary libraries downloaded and installed.  We have provided the above for context on how and why an enterprise would find SPring AI appealing.  
 
-As you work through the following sexercises, please take the time to review the details of how the Spring packages are configured to use AWS Bedrock LLMs.  We have added some extra code detail on each README file.  The goal is to explain how GenAI types of tasks can be completed in just a few lines of code using the Spring AI framework.
+As you work through the following exercises, please take the time to review the details of how the Spring packages are configured to use AWS Bedrock LLMs.  We have added some extra code detail on each README file.  The goal is to explain how GenAI types of tasks can be completed in just a few lines of code using the Spring AI framework.
 
