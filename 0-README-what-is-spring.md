@@ -8,7 +8,7 @@ _Java_ is one of the most popular development languages used by enterprises toda
 
 <img src="./src/main/resources/images/popular-programming-languages.png" alt="drawing" style="width:600px;"/>
 
-The Spring Framework was developed as a means of giving developers tools to solve these problems.  The core features can be used by any Java application and supports a variety of Java versions.  The Spring Framework could be viewed as extensions for building web applications on top of Java EE (Enterprise Edition). 
+The [Spring Framework](https://spring.io) was developed as a means of giving developers tools to solve these problems.  The core features can be used by any Java application and supports a variety of Java versions.  The Spring Framework could be viewed as extensions for building web applications on top of Java EE (Enterprise Edition). 
 
 Spring Framework is free and open source, although [commercial support](https://tanzu.vmware.com/spring-runtime) is provided by Tanzu by Broadband.  Spring is extremely popular in the Java community. Since it's introdiuction in 2002 adoption has grown steadily.  On average, there are over 1,000,000 Spring downloads every month.
 
@@ -40,4 +40,5 @@ Once selections are complete, the team simply download the files.  All the neces
 ## In this Workshop
 This workshop will start with all the necessary libraries downloaded and installed.  We have provided the above for context on how and why an enterprise would find SPring AI appealing.  
 
-As you work through the following sexercises, please take the time to review the details of how the Spring packages are configured to use AWS Bedrock LLMs.  We have added some extra code detail on each README file.  The goal is to explain how GenAI types of tasks can be completed in just a few lines of code using the SPring AI framework.
+As you work through the following sexercises, please take the time to review the details of how the Spring packages are configured to use AWS Bedrock LLMs.  We have added some extra code detail on each README file.  The goal is to explain how GenAI types of tasks can be completed in just a few lines of code using the Spring AI framework.
+
