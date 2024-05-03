@@ -3,7 +3,7 @@
 ## Introduction
 This is an introductory workshop for Spring AI with AWS Bedrock LLMs.  Unlike vendors like Azure and Google, AWS has chosen to host multiple models rather than throw in entirely on their own model (Titan).  The model I selected for this workshop is `Anthropic3` for chat, and AWS's own `Titan` for embeddings.
 
-**NOTE:** Many users will have experience doing AI workshops using python tools like *langchain* and *streamlit*.  While that provides a nice GUI for testing, Spring is designed for enterprise applications and is almost always part of a larger application. Because Spring in general is a tool for developers, the entire workshop will be delivered through the command line terminal.  While it is definitely possible to run command by posting commands such as "http://localhost:8080/ai/simple" in a browser, it is not really an optimal experience.  
+**NOTE:** Many users will have experience doing AI workshops using python tools like *langchain* and *streamlit*.  While that provides a nice GUI for testing, Spring is designed for enterprise applications and is almost always part of a larger application. Because Spring in general is a tool for developers, the entire workshop will be delivered through the command line terminal.  While it is definitely possible to run command by posting commands such as _"ht<span>tp://localhost</span>:8080/ai/simple"_ in a browser, it is not really an optimal experience.  
 
 For best experience, we encourage user to deploy the *.devcontainer*, which has all necessary tools such as `java`, `maven`, `http`, and `curl` installed. Launching a [CodeSpace]("https://github.com/features/codespaces") from GitHub will open the *devcontainer* and bring you into the *VsCode* tool. In this case, we recommend running `./mvnw clean install`before starting the first exercise to download all dependencies and prep the application. Also, it is not necessary to run `./mvnw spring-boot:run` for every exercise if the app is still running.  
 
@@ -16,7 +16,7 @@ Before you begin make sure to set the following environment variables.
 ```shell
 export AWS_ACCESS_KEY_ID=<INSERT ID HERE>
 export AWS_SECRET_ACCESS_KEY=<INSERT KEY HERE>
-export AWS_SESSION_TOKEN=<INSERT TOKEN HERE>  \\optional for some users
+
 ```
 NOTE: the [Spring AI docs]("https://docs.spring.io/spring-ai/reference/index.html) will tell you to enter these values in the *application.properties* file.  
 I found I had issues with the utility used in-house to access AWS, so I leave them out of *application.properties* opting for setting environmental variables in my console.  That said, you *must* set the _region_ in the *application.properties* file.
@@ -48,14 +48,13 @@ To interact with the @RestController, you will be using the `http` utility as a 
 
 Detailed instructions and exercises for each example can be found in their respective README files:
 
-* 1-README-tell-me-a-joke.md 
-* 2-README-prompt-templating.md 
-* 3-README-prompt-roles.md 
-* 4-README-output-parser.md 
-* 5-README-stuff-prompt.md 
+* 1-README-tell-me-a-joke.md
+* 2-README-prompt-templating.md
+* 3-README-prompt-roles.md
+* 4-README-output-parser.md
+* 5-README-stuff-prompt.md
 * 6-README-retrieval-augmented-generation.md
 
 These guides will walk you through the workshop exercises.
 
-`NOTE:` before running the workshop, please visit `0-README-what-is-spring.md` to get some background on the Spring Framework and understand why Development teams love to use Spring AI.
-
+`NOTE:` before running the workshop, please visit `0-README-what-is-spring.md`[here](../blob/main/0-README-what-is-spring.md) to get some background on the Spring Framework and understand why Development teams love to use Spring AI.
